@@ -52,7 +52,7 @@ python2.7 Fst.py \
     --out ./out 
 ```
 
-**details about all these arguments**
+**Details about the arguments**
 
 **--bfile** (required): /bplink/file/prefix. Note: No duplicated snpID in the bim file; Same FID and IID in the fam file, with/without gender info.
 
@@ -89,7 +89,7 @@ python2.7 Fst_bootstrap.py \
     --out ./out 
 ```
 
-**details about all these arguments**
+**Details about the arguments**
 
 **--bfile** (required): The same as required by Fst.py.
 
