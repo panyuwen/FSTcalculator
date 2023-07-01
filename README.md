@@ -28,8 +28,8 @@ Calculation of $F_{ST}$ for pairwise populations, following the instruction of t
 5. target regions to be analyzed `optional`
 6. number of threads `optional`
 
-**Note: "plink1.9" would be called in this script**    
-**Make sure that PLINK1.9 is installed and could be found in the PATH environment.**      
+Note: "plink1.9" would be used to calculate allele frequenies    
+Make sure that plink1.9 is installed and could be found in your PATH environment.      
 
 ## Usage:    
 ### $F_{ST}$ (site- / region-based, and global)
