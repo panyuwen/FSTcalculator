@@ -1,12 +1,8 @@
-> For the calculation of FST     
-
----
-
-### Description:
-calculation of $F_{ST}$, following the instruction of the following paper
+## Description:
+Calculation of $F_{ST}$ for pairwise populations, following the instruction of the following paper    
 > 1984-Estimating F‐statistics for the analysis of population structure
 
-### Dependencies:
+## Dependencies:
 - python2.7
 - argparse
 - sys
@@ -23,7 +19,7 @@ calculation of $F_{ST}$, following the instruction of the following paper
 - plink1.9
 
 
-### Input:
+## Input:
 
 1. bplink file `required`
 2. sample info file `required`
@@ -35,8 +31,8 @@ calculation of $F_{ST}$, following the instruction of the following paper
 **Note: "plink1.9" would be called in this script**    
 **Make sure that PLINK1.9 is installed and could be found in the PATH environment.**      
 
-### Usage:    
-#### FST
+## Usage:    
+### $F_{ST}$ (site- / region-based, and global)
 ```shell
 python2.7 Fst.py -h
 ```
@@ -70,7 +66,7 @@ python2.7 Fst.py \
 
 ---
 
-#### FST bootstrapping
+### $F_{ST}$ bootstrapping (by sampling sites)
 ```shell
 python2.7 Fst_bootstrap.py -h
 ```
