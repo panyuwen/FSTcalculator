@@ -50,7 +50,7 @@ python2.7 Fst.py \
 
 **Details about the arguments**
 
-**--bfile** (required): /bplink/file/prefix. Note: No duplicated snpID in the bim file; Same FID and IID in the fam file, with/without gender info.
+**--bfile** (required): /bplink/file/prefix. Note: duplicated snpID or indel are not allowed; Same FID and IID in the fam file, with/without gender info.
 
 **--info** (required): individual info file, only samples in the info file will be used. \<IID\> \<population ID\>, 2 columns, no header, space or tab-delimited.
 
