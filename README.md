@@ -52,7 +52,7 @@ python2.7 Fst.py \
 
 **--bfile** (required): /bplink/file/prefix. Note: No duplicated snpID in the bim file; Same FID and IID in the fam file, with/without gender info.
 
-**--info** (required): individual info file, only samples in the info file will be used. <IID> <population ID>, 2 columns, no header, space or tab-delimited.
+**--info** (required): individual info file, only samples in the info file will be used. \<IID\> \<population ID\>, 2 columns, no header, space or tab-delimited.
 
 **--pair** (optional): pairs of populations to be analyzed. 2 columns, <pop1> <pop2>, no header, space or tab-delimited. $F_{ST}$ calculated only for population pairs in the pair file, OR, pairwisely, according to the populations listed in the info file
 
